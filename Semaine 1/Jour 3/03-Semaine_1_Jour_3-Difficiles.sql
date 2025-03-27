@@ -11,4 +11,4 @@ select * from employés order by salaire desc;
 select nom, département from employés where salaire > 2500 and département = "IT";
 
 -- 03
-select * from employés where nom like %e% and département = "Finance";
+select * from employés where nom like '%e%' and département = "Finance";
